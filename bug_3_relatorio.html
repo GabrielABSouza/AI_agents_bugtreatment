@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação do Bug</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        .mermaid { margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <h1>Documentação do Bug #001</h1>
+    <h2>Problemas de Renderização e Interatividade no Frontend</h2>
+    <p><strong>Descrição:</strong> Problemas de renderização de página e erros no CSS e JavaScript afetando a interface do usuário.</p>
+    <p><strong>Componente Afetado:</strong> Frontend - Interface do usuário e interatividade.</p>
+    <p><strong>Severidade:</strong> Grave - Impacta funcionalidades cruciais, mas com possíveis workarounds.</p>
+    <h3>Análise Técnica</h3>
+    <ul>
+        <li><strong>Causa Raiz:</strong> Conflitos ou erros no CSS e problemas de compatibilidade no JavaScript.</li>
+        <li><strong>Impacto:</strong> Afeta botões, menus, formulários e animações.</li>
+        <li><strong>Solução:</strong> Revisar e depurar CSS/JavaScript, testar em diferentes ambientes.</li>
+    </ul>
+    <h3>Resolução</h3>
+    <ul>
+        <li><strong>Desenvolvedor:</strong> Maria Souza</li>
+        <li><strong>Prazo:</strong> 5 dias úteis</li>
+        <li><strong>Status:</strong> Aberto</li>
+    </ul>
+    <h3>Lições Aprendidas</h3>
+    <p>Revisão cuidadosa e testes extensivos são essenciais para evitar problemas similares no futuro.</p>
+    <div class="mermaid">
+        graph TD;
+        A[Identificação do Bug] --> B[Análise Técnica];
+        B --> C{Causa Raiz};
+        C --> D[Erros no CSS];
+        C --> E[Problemas no JavaScript];
+        D --> F[Revisão do Código];
+        E --> F;
+        F --> G[Testes em Ambientes Diferentes];
+        G --> H[Solução Implementada];
+        H --> I{Validação};
+        I --> J[Testes Multinavegador];
+        I --> K[Testes em Dispositivos];
+        J --> L[Liberar Correção];
+        K --> L;
+    </div>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@8.8.4/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</body>
+</html>

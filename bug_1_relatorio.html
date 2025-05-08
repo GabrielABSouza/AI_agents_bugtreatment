@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação de Bug</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .mermaid {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Documentação do Bug #101</h1>
+    <h2>Descrição</h2>
+    <p>O bug identificado está relacionado à renderização das páginas na interface do usuário, onde erros de JavaScript estão impactando negativamente a experiência visual. Este problema ocorre em algumas partes da aplicação, causando falhas na exibição correta dos elementos de UI.</p>
+    
+    <h2>Diagrama de Fluxo</h2>
+    <div class="mermaid">
+        graph TD;
+            A[Identificação do Bug] --> B[Analise Técnica];
+            B --> C[Causa Raiz: Erros de JavaScript];
+            C --> D[Impacto: Problemas de Renderização na UI];
+            D --> E[Correção do Código JavaScript];
+            E --> F[Testes Abrangentes];
+            F --> G[Implementação da Solução];
+    </div>
+    
+    <h2>Componente Afetado</h2>
+    <p>FRONTEND - O problema descrito está relacionado à renderização das páginas, que é uma questão de UI, e aos erros de JavaScript, que indica um problema específico no frontend da aplicação.</p>
+    
+    <h2>Severidade</h2>
+    <p>MENOR - O problema está relacionado à renderização de UI e erros de JavaScript, afetando a experiência visual e possivelmente a usabilidade em uma parte não essencial do sistema, sem impactar funcionalidades principais ou causar perda de dados.</p>
+    
+    <h2>Resolução</h2>
+    <ul>
+        <li>Desenvolvedor: João Silva</li>
+        <li>Prazo: 2 semanas</li>
+        <li>Status: Aberto</li>
+    </ul>
+    
+    <h2>Lições Aprendidas</h2>
+    <p>É essencial garantir que todas as bibliotecas de frontend estejam atualizadas para evitar conflitos. Recomenda-se a implementação de testes unitários para prevenir regressões futuras. Envolver a equipe de QA para realizar testes abrangentes e garantir que não haja efeitos colaterais após a correção.</p>
+</body>
+</html>

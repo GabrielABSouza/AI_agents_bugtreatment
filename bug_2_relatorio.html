@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação do Bug - Problema de Responsividade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .mermaid {
+            margin: 20px 0;
+        }
+    </style>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</head>
+<body>
+    <h1>Documentação do Bug - Problema de Responsividade</h1>
+    <h2>Descrição</h2>
+    <p>O problema está relacionado à responsividade da interface do usuário, afetando a renderização e o layout em diferentes dispositivos.</p>
+    
+    <h2>Componente Afetado</h2>
+    <p><strong>Frontend</strong> - O problema está relacionado à responsividade da interface do usuário, o que é uma questão de Frontend, afetando a renderização e o layout em diferentes dispositivos.</p>
+    
+    <h2>Severidade</h2>
+    <p><strong>Menor</strong> - A questão de responsividade afeta a aparência e a experiência do usuário, mas não impede o funcionamento das funcionalidades principais da aplicação.</p>
+    
+    <h2>Análise Técnica</h2>
+    <ul>
+        <li><strong>Causa Raiz:</strong> Falta de media queries adequadas no CSS, uso inadequado de unidades de medida, ou não utilização de layout flexível.</li>
+        <li><strong>Impacto:</strong> Afeta CSS/SASS, componentes de UI específicos em telas variadas.</li>
+        <li><strong>Solução:</strong> Implementar ou corrigir media queries, adotar design 'mobile-first', usar unidades relativas.</li>
+    </ul>
+    
+    <h2>Resolução</h2>
+    <ul>
+        <li><strong>Desenvolvedor:</strong> Maria Santos</li>
+        <li><strong>Prazo:</strong> 2 semanas</li>
+        <li><strong>Status:</strong> Aberto</li>
+    </ul>
+    
+    <h2>Lições Aprendidas</h2>
+    <p>Recomenda-se a adoção de práticas de desenvolvimento responsivo desde o início do projeto, garantindo que todos os elementos da UI sejam testados em diferentes dispositivos e tamanhos de tela.</p>
+
+    <div class="mermaid">
+      graph LR
+        A[Identificação do Problema] --> B[Análise do CSS e Media Queries]
+        B --> C{Causa Raiz?}
+        C -->|Sim| D[Corrigir Media Queries]
+        C -->|Não| E[Revisar Unidades de Medida]
+        D --> F[Implementar Solução]
+        E --> F
+        F --> G[Testes de Regressão]
+        G --> H[Concluir Correção]
+    </div>
+</body>
+</html>
